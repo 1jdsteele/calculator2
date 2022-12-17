@@ -16,25 +16,28 @@ function App() {
   return (
     <div className="App">
 
-      Hello, World!  I am calculator 2!
-      <div className="display">
-        <span>(0)</span> 0
-      </div>
+      <div className="calculator">
+         <div className="display">
+            <span>(0)</span> 0
+         </div>
 
-      <div className="operators">
-        <button>/</button>
-        <button>*</button>
-        <button>+</button>
-        <button>-</button>
-        <button>DEL</button>
-      </div>
+        <div className="operators">
+          <button>/</button>
+          <button>*</button>
+          <button>+</button>
+          <button>-</button>
+          <button>DEL</button>
+        </div>
 
-      <div className="digits">
-        {createDigits()}
-        <button>0</button>
-        <button>.</button>
-        <button>=</button>
+        <div className="digits">
+          {createDigits()}
+          <button>0</button>
+          <button>.</button>
+          <button>=</button>
+        </div>
       </div>
+     
+
     </div>
   );
 }
