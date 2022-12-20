@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   /* look into a font that is preferable */
-  font-family: sand-serif;
+  font-family: san-serif;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
   text-align: right;
   background-color: var(--dark);
   color: var(--light);
-  font-size: 24px;
+  font-size: 48px;
   font-weight: 300;
   display: flex;
   align-items: flex-end;
@@ -48,7 +48,7 @@ body {
 }
 
 .display span {
-  font-size: 14px;
+  font-size: 28px;
   color: #888;
 }
 
@@ -112,9 +112,11 @@ button:hover {
   .display {
     min-height: calc(100vh / 6);
     
+    
   }
 
   .numdis{
-   
+   /* font-size: 50%; */
+   /* height: 50%; */
   }
 }
