@@ -51,8 +51,11 @@ function App() {
 
       <div className="calculator">
          <div className="display">
-            {result ? <span>({result}) </span> : ''}
-            { calc || "0"}
+           <div className="numdis">
+             {result ? <span>({result}) </span> : ''}
+             { calc || "0"}
+           </div>
+            
          </div>
 
         <div className="operators">
