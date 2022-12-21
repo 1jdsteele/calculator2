@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   /* look into a font that is preferable */
-  font-family: san-serif;
+  font-family: Verdana, sans-serif;
 }
 
 body {
@@ -73,7 +73,7 @@ button:hover {
 
 .operators button {
   flex: 1 1 0%;
-  background-color: var(--primary);
+  background-color: var(--secondary);
   font-weight: 700;
 }
 
